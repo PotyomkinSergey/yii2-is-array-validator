@@ -1,0 +1,19 @@
+{
+    "name": "potomkin/yii2-is-array-validator",
+    "description": "Yii2 validator to check if attribute is array",
+    "type": "validator",
+    "require": {
+        "yiisoft/yii2": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Potomkin\\Yii2\\Validator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Potomkin Serhii",
+            "email": "potyomkinsergey@gmail.com"
+        }
+    ]
+}
