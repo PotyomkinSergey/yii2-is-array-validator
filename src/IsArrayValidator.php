@@ -10,7 +10,7 @@ class IsArrayValidator extends Validator
     public function validateAttribute($model, $attribute): void
     {
         if (!is_array($model->$attribute)) {
-            $model->addError($attribute, 'The attribute must be an array.');
+            $model->addError($attribute, "The attribute {$attribute} must be an array.");
         }
     }
 }
